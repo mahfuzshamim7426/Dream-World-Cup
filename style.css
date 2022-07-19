@@ -1,0 +1,134 @@
+/* ===========Google Fonts Start============ */
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@500&family=Roboto&display=swap');
+/* ===========Google Fonts End============ */
+
+
+/* ============Body tag Start============= */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============Body tag End============= */
+.container {
+    width: 1000px;
+    height: 574px;
+    padding: 20px 25px;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+/* ============Header Section Start============ */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-section {
+    display: flex;
+}
+
+.header-content {
+    color: white;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.header-button {
+    background-color: red;
+    height: 40px;
+    width: 115px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.header-content h1 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.header-image img {
+    width: 530px;
+    height: 593px;
+}
+
+/*============= Header Section End============= */
+
+
+/*================ Main Section Start============= */
+
+.side-menu-buttons {
+    width: 250px;
+    height: 270px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-button {
+    height: 35px;
+    color: #161616;
+    width: 155px;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.menu-button a {
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon-two {
+    margin-left: 50px;
+}
+
+/* ===============Main Section End ==============*/
+
+
+
+/* =============Footer Section Start============= */
+.footer-sec-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #161616;
+    height: 300px;
+}
+
+.footer h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer hr {
+    color: white;
+    width: 1040px;
+    margin-bottom: 40px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/*================ Footer Section End================ */
