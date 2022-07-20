@@ -221,24 +221,106 @@ body {
 /*================ Footer Section End================ */
 
 
-/* Responsive Website Start */
+/* ==========Responsive Website Start =================*/
+
+/* Responsive for Small Device */
 
 @media only screen and (max-width:688px) {
+
     .container {
         width: 334px;
-        height: 472px;
+        height: 500px;
         padding: 5px 10px;
-        margin-top: 20px;
+        margin: 20px;
     }
 
     .header-section {
         flex-direction: column;
     }
 
+    .header-content {
+        color: white;
+        width: 100%;
+        padding: 0;
+    }
+
     .header-content h1 {
         font-weight: 700;
         font-size: 22px;
+        padding: 25px 55px 5px 55px;
+        margin: 0;
     }
+
+    .header-content p {
+        height: 51px;
+        width: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 5px 0px 10px 48px;
+        padding: 0;
+    }
+
+    .header-button {
+        background-color: red;
+        height: 40px;
+        width: 115px;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        margin: 10px 0 15px 90px;
+    }
+
+    .header-image img {
+        width: 273px;
+        height: 278px;
+        margin-left: 42px;
+    }
+
+    .container-main {
+        padding: 0;
+    }
+
+    .main-content {
+        padding: 25px 0;
+    }
+
+    .main-content-wrapper {
+        flex-direction: column;
+    }
+
+    .blog-section {
+        margin: 20px;
+    }
+
+    .blog-section-warpper {
+        grid-template-columns: repeat(1, auto);
+
+    }
+
+    .side-menu-wrapper {
+        background-color: white;
+    }
+
+    .menu-button {
+        border: 1px solid rgb(206, 206, 206);
+        border-radius: 15px;
+
+    }
+
+    .footer {
+        height: 800px;
+    }
+
+    .footer-sec-menu {
+        flex-direction: column;
+        column-gap: 15px;
+    }
+
+    .footer-menu {
+        line-height: 50px;
+    }
+
 }
+
 
 /* Responsive Website End */
