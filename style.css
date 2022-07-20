@@ -122,6 +122,9 @@ body {
     border-radius: 10px;
 }
 
+/* ============Upcoming-match CSS Start ===============*/
+
+
 .upcoming-match {
     padding: 20px;
 
@@ -133,17 +136,19 @@ body {
 }
 
 .country h2 {
-    padding-top: 10px;
+    font-size: 18px;
+    margin: 10px;
 }
 
-.country img {
-    margin: 20px;
+.flag-image img {
     width: 100%;
 }
 
 .country-content {
     text-align: center;
 }
+
+/* =====================Upcoming-match CSS End ==============================*/
 
 .blog-image {}
 
