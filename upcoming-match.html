@@ -12,6 +12,7 @@
         .upcoming {
             color: rgb(0, 0, 0);
             background-color: red;
+            color: white;
         }
 
         .blog {
@@ -23,26 +24,26 @@
 
 <body>
     <!-- ==============Header section Start================= -->
-    <header class="header">
-        <div class="container">
-            <div class="container-fluid">
-                <div class="header-section">
-                    <div class="header-content">
-                        <h1>The Greatest show on the earth</h1>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply
-                            random text. It has roots in a piece of classical Latin literature from 45 BC, making it
-                            over
-                            2000
-                            years old.</p>
-                        <!-- <button class="header-button">Watch Live <i class="fa-solid fa-angle-right"></i></button> -->
-                        <button type="button" class="header-button">Watch Live <i class="fa-solid fa-angle-right"></i>
-                        </button>
+    <header class="header-section">
+        <div class="container-header">
+            <div class="header-section-wrapper">
+                <div class="header-content">
+                    <h1>The Greatest show on the earth</h1>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin literature from 45 BC, making it
+                        over
+                        2000
+                        years old.</p>
+                    <a href="#" class="header-button">Watch Live <i class="fa-solid fa-angle-right"></i>
+                    </a>
 
-                    </div>
-                    <div class="header-image">
+                </div>
+
+                <div class="header-image">
+                    <div class="header-image-wrapper">
                         <img src="images/Banner Image.png" alt="Banner image">
-
                     </div>
+
                 </div>
             </div>
         </div>
@@ -55,14 +56,18 @@
             <div class="container-main">
                 <div class="main-content-wrapper">
 
+                    <!-- Side Menu Section Start -->
+
                     <div class="side-menu">
                         <div class="side-menu-wrapper">
-                            <a class="menu-button upcoming" href="">Upcoming Match</a>
-                            <a class="menu-button group" href="">All Group</a>
-                            <a class="menu-button blog" href="">Blog</a>
+                            <a class="menu-button upcoming" href="/upcoming-match.html">Upcoming Match</a>
+                            <a class="menu-button group" href="/all-group.html">All Group</a>
+                            <a class="menu-button blog" href="/index.html">Blog</a>
                         </div>
                     </div>
+                    <!-- Side Menu Section End -->
 
+                    <!-- Blog Section Start -->
                     <div class="blog-section">
                         <div class="blog-section-warpper">
 
@@ -172,6 +177,8 @@
                         </div>
 
                     </div>
+                    <!-- Blog Section End -->
+
                 </div>
             </div>
 
@@ -179,6 +186,7 @@
         </section>
     </main>
 
+    <!-- ===============Main Section End====================== -->
 
     <!-- ==============Footer Section Start================== -->
     <footer>
@@ -195,11 +203,18 @@
                 <div class="footer-menu"><a href=""> Goal Live</a></div>
             </div>
 
+            <!-- Footer Social Menu Start -->
             <div class="social-icon">
-                <i class="fa-brands fa-facebook-square"></i>
-                <i class="fa-brands fa-instagram-square"></i>
-                <i class="fa-brands fa-linkedin"></i>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a target="_blank" href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram-square"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
             </div>
+            <!-- Footer Social Menu End -->
+
         </section>
     </footer>
 
